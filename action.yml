@@ -3,7 +3,7 @@ author: 'GitHub'
 description: 'It is a simple combination of various linters, written in bash, to help validate your source code.'
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/github/super-linter:46d2d38764aa99ab8ac7d6728668175a51643432'
+  image: 'docker://docker.io/mshimokurabvg/super-linter-editorconfig-test:latest'
 branding:
   icon: 'check-square' 
   color: 'white'
